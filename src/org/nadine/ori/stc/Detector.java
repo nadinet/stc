@@ -4,8 +4,13 @@ import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 
+/**
+ * 
+ * @author dini
+ *
+ */
 public class Detector {
-
+	
 	private SpanningTree treeTable;
 	private static Detector _instance = null;
 	protected Detector(){
