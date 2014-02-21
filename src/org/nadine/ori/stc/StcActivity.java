@@ -19,7 +19,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.SurfaceView;
 import android.widget.ToggleButton;
-
+/**
+ * Stc android activity
+ * @author ....
+ *
+ */
 public class StcActivity extends IOIOActivity implements CvCameraViewListener2 {
 
 	private static final String TAG = "StcActivity";
